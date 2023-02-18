@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!----------- bootstrap CDN --------->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+  <!------------- vanila css ------->
+  <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+
+  <section class=" body">
+    <nav class="navbar nav-body ">
+      <div class="container-fluid">
+
+        <img src="../images/images/domlogo.webp" alt="Logo" width="80" height="80"
+          class="d-inline-block align-text-top">
+
+
+        <div class="">
+          <P class="text-light fs-2"><span>D<span>O</span>M</span> (Document Object Model)</P>
+        </div>
+      </div>
+    </nav>
+
+    <div class="row row-cols-md-2 justify-content-center align-items-center ">
+
+
+      <!-- ----------------acordion div --------------->
+      <div class="order-md-1 order-2">
+
+        <div class="accordion " id="accordionExample">
+          <div class="accordion-item border-0 mb-3">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button text-bg-info" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                1. What is DOM and what is the purpose of DOM ????
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body bg-body-secondary">
+                <span class="text-primary text-decoration-underline">ANS:</span> DOM full meening is Document Object
+                Model, it's an most important work for creat website Daynamic. Dom presents the pages daynamicly changed
+                its value. it can change the document structure, style, and content....
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item border-0 mb-3">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed text-bg-info" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                2. How will you select HTML elements using DOM? Name the DOM methods.??
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body bg-body-secondary">
+                <span class="text-primary text-decoration-underline">ANS:</span> i can select HTML elemements by (Id
+                Name,classes Name,Tags Name,).The DOM methods are getElementsByTagName(), getElementsByClassNam(),
+                getElementById(),
+                querySelector(),
+                querySelectorAll()....
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item border-0 mb-3">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed text-bg-info " type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                3. What is event bubble ????
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body bg-body-secondary">
+                <span class="text-primary text-decoration-underline">ANS:</span>Event Bubble is a element or mathod of  DOM (Document Object Model).it's used in Dom when an element had an  even hndeler 
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mb-3 border-0">
+            <h2 class="accordion-header" id="headingfour">
+              <button class="accordion-button collapsed text-bg-info" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                4. What is a callback function and why will you use it ????
+              </button>
+            </h2>
+            <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body bg-body-secondary">
+                <span class="text-primary text-decoration-underline">ANS:</span> callback funtion meens a function who is called by another function for compleateing various kind of action.we used callback function in nessesery moments.when we need we can call it.if we call it then it will be starting the action.otherwise its not work 
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+      <!--................. img-div -->
+      <div class="order-md-2 order-1">
+        <img src="../images/images/Javascript-DOM.jpg" class="w-100 px-3 py-md-4 py-5" alt="">
+      </div>
+    </div>
+
+    <div>
+      <h2 class="text-center py-2  text-light nav-body">End OF DOM WEBPAGE</h2>
+
+
+    </div>
+    </div>
+  </section>
+</body>
+
+</html>

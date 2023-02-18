@@ -119,5 +119,9 @@ document.getElementById('batton-Ellipse').addEventListener('click', function () 
 
 })
 
+document.getElementById('blog').addEventListener('click',function(){
+   
+})
+
 
 
