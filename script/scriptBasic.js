@@ -65,3 +65,38 @@ document.getElementById("batton-Rhombus").addEventListener('click', function () 
 
 
 })
+
+
+// <-----Pentagon card Even hendeler------->
+
+document.getElementById("batton-Pentagon").addEventListener('click', function () {
+
+  // --------(0.5 * p * b)----- part
+
+   // first step:-calculating input value of (p),and inpudt value of (b) by a functon named-getTotal-----
+   const pb = getTotal('Pentagon-input-p', 'Pentagon-input-b')
+
+ // 2nd step:-calculating the value of (p*b) with 0.5 ,,,
+   const fixed = pb.toFixed(2)
+   const total = fixed*0.5;
+   console.log(total)
+
+
+
+})
+
+
+// <-----Pentagon card Even hendeler------->
+document.getElementById("batton-Ellipse").addEventListener('click', function () {
+
+   // --------( b * h)----- part
+
+   // first step:-calculating input value of (b),and inpudt value of (h) by a functon named-getTotal-----
+   const ab = getTotal('Ellipse-input-a', 'Ellipse-input-b')
+ 
+   const fixed = ab.toFixed(2)
+   const total = fixed * 3.14;
+   let newValue =total.toFixed(2) 
+   console.log(newValue)
+
+})
